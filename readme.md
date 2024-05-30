@@ -4,7 +4,8 @@
 3. third commit : 버튼을 눌렀을때 창을 띄우는 액션을 주고싶어서 열심히 구글링 해봤는데 자바스크립트를 쓰는 경우가 많았지만 html만으로도 가능했다!
 ---
 css <br>
-4. fourth commit : css 적용 시작, 
+4. fourth commit : css 적용 시작, 상단 메뉴 완성, 구글이미지 박스 진행중
+5. 5th commit : 나중에 배울 flex를 아직 모르고 있지만서도 너무 난잡하게 코딩하는것 같다, 검색창까지 완성, 하단메뉴 시작
 
 
 
@@ -21,7 +22,7 @@ css <br>
 3. box-sizing
 4. display : flex, inline-block
 5. a:link a:hover
-6. 
+6. position
 
 
 ## 궁금증
@@ -30,3 +31,4 @@ css <br>
 : css * 태그와 전체 태그를 이용해 **해결완료**
 3. 모든 링크에 밑줄 제거하고 마우스 대면 밑줄 생기게 하고 싶음 : css 파일에서 a{} 이용해서 **해결 완료!**
 4. top-box 클래스 적용을 받는 것 중 모든 a 태그에 link-box 클래스를 적용하고싶어 
+5. 검색창 윗부분은 왜 진해졌을까

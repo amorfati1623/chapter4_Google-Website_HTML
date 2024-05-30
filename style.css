@@ -1,3 +1,4 @@
+/* 전체 적용 */
 *{
     font-size: 14px;
     font-family: Apple SD Gothic Neo, arial, sans-serif;
@@ -12,6 +13,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* 상단메뉴 */
 .top-box{
     padding: 6px;
     height: 60px;
@@ -37,6 +39,7 @@ a.link-box{
     flex-grow: 1;
 }
 
+/* 구글 이미지 배치 */
 .middle-box{
     display: flex;
     flex-direction: column;
@@ -45,15 +48,49 @@ a.link-box{
     height: calc(100vh - 560px);
     max-height: 290px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .img-box{
-    height: 100%;
     margin-top: auto;
-    max-height: 92px;
-    position: relative;
-    object-position: center bottom;
-    object-fit: contain;
 }
 
+/* 검색창&버튼 */
+.search-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
 
+input {
+  width: 582px;
+  height: 32px;
+  font-size: 15px;
+  border-radius: 14px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button-box {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.space {
+    width: 12px;
+    height: auto;
+    display: inline-block;
+}
+
+/* 하단 메뉴 */
+.bottom-box {
+    background-color: #f2f2f2;
+    position: relative;
+    
+}
