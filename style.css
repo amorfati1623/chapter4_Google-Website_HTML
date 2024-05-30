@@ -91,6 +91,28 @@ input {
 /* 하단 메뉴 */
 .bottom-box {
     background-color: #f2f2f2;
-    position: relative;
-    
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.bottom-box-1 {
+    box-sizing: border-box;
+    height: 49px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: #dadce0;
+    border-bottom-width: 1px;
+    font-size: 15px;
+    color: #202124;
+}
+
+.bottom-box-2 {
+    box-sizing: border-box;
+    height: 46.5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
